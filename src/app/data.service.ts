@@ -16,13 +16,13 @@ export class DataService {
     birthday = this.datepipe.transform(birthday, 'yyyy-MM-dd');
 
     return this.http.get<string>(
-      `https://wirvsvirus-backend.azurewebsites.net/hashes?sampleId=${sampleId}&name=${name}&birthday=${birthday}`
+      `https://joemat-crtest.azurewebsites.net/hashes?sampleId=${sampleId}&name=${name}&birthday=${birthday}`
     );
   }
 
   getData(hash:string) {
     return this.http.get<Sample>(
-      `https://wirvsvirus-backend.azurewebsites.net/tests/${hash}`
+      `https://joemat-crtest.azurewebsites.net/tests/${hash}`
     );
   }
 }
