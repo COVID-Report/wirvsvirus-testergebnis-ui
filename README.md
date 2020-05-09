@@ -1,4 +1,4 @@
-# TestergebnisUi
+# Testergebnis UI
 
 This project was started in relation to the hackaton of the german goverment [WirVsVirus](https://wirvsvirushackathon.org/).
 
